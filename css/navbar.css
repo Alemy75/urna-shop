@@ -2,11 +2,11 @@
   position: fixed;
   width: 100%;
   background-color: #A3CF98;
-  transform: translateY(0px);
+  transform: translateY(-600px);
   margin-top: -20px;
   transition: all 0.8s ease;
 } .nav_active {
-  transform: translateY(-600px);
+  transform: translateY(0px);
   margin-bottom: 50px;
 }
 
