@@ -1,13 +1,15 @@
+
+
 .catalog-wrap {
     text-align: center;
     margin-top: 100px;
-    padding-top: 70px
+    padding-top: 10px
 }
 
 .catalog-list {
     display: flex;
     justify-content: space-between;
-    margin-top: 35px;
+    margin-top: 28px;
 }
 
 .catalog-item {
@@ -16,7 +18,7 @@
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.5s ease;
-    background-color: #e7ffe1;
+    background-color: rgb(240, 240, 239);
 }
 .catalog-item:hover{
     border: 2px solid #A3CF98;  
