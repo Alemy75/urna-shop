@@ -35,7 +35,6 @@ box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.12) inset;
     -webkit-box-shadow: 0px 0px 0px 11px rgba(163, 207, 152, 0.4);
     -moz-box-shadow: 0px 0px 0px 11px rgba(163, 207, 152, 0.4);
     box-shadow: 0px 0px 0px 11px rgba(163, 207, 152, 0.4);
-    
 }
 
 @media (max-width: 1199px) {
@@ -70,5 +69,9 @@ box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.12) inset;
     }
   }
   @media (max-width: 440px) {
-
+    .about-logo {
+        width: 35%;
+        font-size: 15px;
+        margin-left: 15px;
+    }
   }

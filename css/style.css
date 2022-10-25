@@ -67,6 +67,16 @@
   box-sizing: border-box;
   cursor: pointer;
 }
+.header__item1 {
+  display: flex;
+  align-items: center;
+}
+
+.header__item1 img {
+  width: 30px;
+  margin-left: 3vh;
+  fill: rgb(240, 240, 240);;
+}
 
 .header-btn {
   color: #A3CF98;
