@@ -51,8 +51,6 @@
     transition: all 0.5s ease;
     background-color: rgb(240, 240, 239);
     transition: all 0.4s ease;
-} .catalog-item:hover {
-    transform: scale(1.02);
 }
 .catalog-item:hover{
     border: 2px solid #A3CF98;  
