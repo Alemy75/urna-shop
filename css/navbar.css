@@ -39,6 +39,11 @@
   color: rgb(143, 125, 112);
 }
 
+.list__item a {
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 1199px) {
   .nav {
       background: none;

@@ -78,8 +78,18 @@
   fill: rgb(240, 240, 240);;
 }
 
-.header-btn {
+.header-btn a {
+  text-decoration: none;
   color: #A3CF98;
+}
+
+.header-btn a:hover {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.header-btn {
   font-size: 15px;
   font-weight: bold;
   transition: all 0.3s ease;
@@ -91,7 +101,6 @@
 .header-btn:hover {
   background-color: rgb(143, 125, 112);
   border: 2px solid rgb(143, 125, 112);
-  color: white;
 }
 
 @media (max-width: 1199px) {
