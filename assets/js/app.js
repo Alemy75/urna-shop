@@ -13,4 +13,9 @@ $(document).ready(function () {
     });
 });
 
+$(".img_list img").click(function() {
+    $(this).closest(".img_list").prev(".main_img").find("img").
+        attr("src", $(this).attr("src"));
+});
+
 
