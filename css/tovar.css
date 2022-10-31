@@ -59,6 +59,16 @@ table.iksweb{margin-bottom: 20px; text-decoration: none;border-collapse:collapse
     width: 36%;
 }
 
+.tovar-imgs p {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid rgb(214, 99, 99);
+    color: rgb(214, 99, 99);
+}
+
 .img_list {
   display: flex;
   justify-content: space-between;
