@@ -7,6 +7,7 @@
 .tovar-wrap {
     width: 100%;
     text-align-last: left;
+    margin-bottom: 100px;
 }
 
 .tovar-item {
@@ -47,6 +48,19 @@
 .tovar-elem p {
     text-align: justify;
 }
+
+.tovar-links {
+    margin-top: 40px;
+}
+
+.tovar__a {
+    text-decoration: underline; 
+    transition: all 0.1s ease; 
+ } .tovar__a:hover {
+     color: #A3CF98;
+     transform:scale(1.02);
+     text-decoration-line: underline;
+ }
 
 /* Стили таблицы (IKSWEB) */
 table.iksweb{margin-bottom: 20px; text-decoration: none;border-collapse:collapse;width:100%;text-align:center;}

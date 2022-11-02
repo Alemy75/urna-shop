@@ -78,7 +78,7 @@
   fill: rgb(240, 240, 240);;
 }
 
-.header-btn a {
+.header-btn {
   text-decoration: none;
   color: #A3CF98;
 }
@@ -96,6 +96,10 @@
   padding: 16px 36px;
   border: 2px solid #A3CF98;
   cursor: pointer;
+}
+
+.btn-link {
+  text-decoration: none;
 }
 
 .header-btn:hover {
